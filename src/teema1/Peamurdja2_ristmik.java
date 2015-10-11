@@ -18,21 +18,7 @@ public class Peamurdja2_ristmik extends Application {
         Foor foor3 = new Foor(Foor.VASAK, primaryStage);
         Foor foor4 = new Foor(Foor.PAREM, primaryStage);
 
-        public void roheliseks(Foor foor) {
-            foor.vahetaPunast();
-            foor.vahetaPunast();
-            foor.vahetaRohelist();
-            foor.vahetaRohelist();
-            foor.syytaKollane();
-            foor.paus(5);
-            foor.kustutaPunane();
-            foor.paus(5);
-            foor.kustutaPunane();
-            foor.paus(5);
-            foor.kustutaRoheline();
-            foor.paus(5);
-            foor.kustutaRoheline();
-    }
+
 
         for (int a=0; a<5; a++) {
             foor1.vahetaPunast();
